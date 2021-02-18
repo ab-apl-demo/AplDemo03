@@ -6,14 +6,19 @@
 //
 
 import UIKit
+import UserNotifications
 
-@main
-class AppDelegate: UIResponder, UIApplicationDelegate {
-
-
+@UIApplicationMain
+class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterDelegate, UIAlertViewDelegate {
+    
+    var window: UIWindow?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        if #available(iOS 10.0, *) {
+            UNUserNotificationCenter.current().delegate = self
+        }
+        
         return true
     }
 

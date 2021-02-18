@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0714A2DD2591645F00316FDF /* FavoriteSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0714A2DC2591645F00316FDF /* FavoriteSetting.swift */; };
+		0714A2E525916AAF00316FDF /* UserAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0714A2E425916AAF00316FDF /* UserAccount.swift */; };
+		0756E91725BEBCFB00490C89 /* sale-1726232_640.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0756E91625BEBCFB00490C89 /* sale-1726232_640.jpg */; };
+		0756E91C25BEBD1800490C89 /* luck-5214413_640.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0756E91B25BEBD1800490C89 /* luck-5214413_640.jpg */; };
+		0756E92125BEBD2000490C89 /* new-32199_640.png in Resources */ = {isa = PBXBuildFile; fileRef = 0756E92025BEBD2000490C89 /* new-32199_640.png */; };
+		0756E92625BEBD2C00490C89 /* coming-soon-2712818_640.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0756E92525BEBD2C00490C89 /* coming-soon-2712818_640.jpg */; };
+		0756E92B25BEC11D00490C89 /* message_2021-01-25.png in Resources */ = {isa = PBXBuildFile; fileRef = 0756E92A25BEC11D00490C89 /* message_2021-01-25.png */; };
 		07CDBF19253D0DC300B9EDF6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07CDBF18253D0DC300B9EDF6 /* AppDelegate.swift */; };
 		07CDBF1B253D0DC300B9EDF6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07CDBF1A253D0DC300B9EDF6 /* SceneDelegate.swift */; };
 		07CDBF1D253D0DC300B9EDF6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07CDBF1C253D0DC300B9EDF6 /* ViewController.swift */; };
@@ -15,6 +22,8 @@
 		07CDBF25253D0DCD00B9EDF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07CDBF23253D0DCD00B9EDF6 /* LaunchScreen.storyboard */; };
 		07CDBF30253D0DCE00B9EDF6 /* AplDemo03Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07CDBF2F253D0DCE00B9EDF6 /* AplDemo03Tests.swift */; };
 		07CDBF3B253D0DCE00B9EDF6 /* AplDemo03UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07CDBF3A253D0DCE00B9EDF6 /* AplDemo03UITests.swift */; };
+		07CDBF4C253D1F6700B9EDF6 /* MainMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07CDBF4B253D1F6700B9EDF6 /* MainMenuViewController.swift */; };
+		07CDBF542558E8F500B9EDF6 /* halloween-21498_640.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 07CDBF532558E8F500B9EDF6 /* halloween-21498_640.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +44,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0714A2DC2591645F00316FDF /* FavoriteSetting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteSetting.swift; sourceTree = "<group>"; };
+		0714A2E425916AAF00316FDF /* UserAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAccount.swift; sourceTree = "<group>"; };
+		0756E91625BEBCFB00490C89 /* sale-1726232_640.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "sale-1726232_640.jpg"; path = "../../image/sale-1726232_640.jpg"; sourceTree = "<group>"; };
+		0756E91B25BEBD1800490C89 /* luck-5214413_640.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "luck-5214413_640.jpg"; path = "../../image/luck-5214413_640.jpg"; sourceTree = "<group>"; };
+		0756E92025BEBD2000490C89 /* new-32199_640.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "new-32199_640.png"; path = "../../image/new-32199_640.png"; sourceTree = "<group>"; };
+		0756E92525BEBD2C00490C89 /* coming-soon-2712818_640.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "coming-soon-2712818_640.jpg"; path = "../../image/coming-soon-2712818_640.jpg"; sourceTree = "<group>"; };
+		0756E92A25BEC11D00490C89 /* message_2021-01-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "message_2021-01-25.png"; path = "../../image/message_2021-01-25.png"; sourceTree = "<group>"; };
 		07CDBF15253D0DC300B9EDF6 /* AplDemo03.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AplDemo03.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07CDBF18253D0DC300B9EDF6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		07CDBF1A253D0DC300B9EDF6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +65,8 @@
 		07CDBF36253D0DCE00B9EDF6 /* AplDemo03UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AplDemo03UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		07CDBF3A253D0DCE00B9EDF6 /* AplDemo03UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AplDemo03UITests.swift; sourceTree = "<group>"; };
 		07CDBF3C253D0DCE00B9EDF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07CDBF4B253D1F6700B9EDF6 /* MainMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuViewController.swift; sourceTree = "<group>"; };
+		07CDBF532558E8F500B9EDF6 /* halloween-21498_640.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "halloween-21498_640.jpg"; path = "../../image/halloween-21498_640.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +121,17 @@
 				07CDBF1A253D0DC300B9EDF6 /* SceneDelegate.swift */,
 				07CDBF1C253D0DC300B9EDF6 /* ViewController.swift */,
 				07CDBF1E253D0DC300B9EDF6 /* Main.storyboard */,
+				07CDBF4B253D1F6700B9EDF6 /* MainMenuViewController.swift */,
+				0714A2DC2591645F00316FDF /* FavoriteSetting.swift */,
+				0714A2E425916AAF00316FDF /* UserAccount.swift */,
 				07CDBF21253D0DCD00B9EDF6 /* Assets.xcassets */,
 				07CDBF23253D0DCD00B9EDF6 /* LaunchScreen.storyboard */,
+				07CDBF532558E8F500B9EDF6 /* halloween-21498_640.jpg */,
+				0756E91625BEBCFB00490C89 /* sale-1726232_640.jpg */,
+				0756E91B25BEBD1800490C89 /* luck-5214413_640.jpg */,
+				0756E92025BEBD2000490C89 /* new-32199_640.png */,
+				0756E92525BEBD2C00490C89 /* coming-soon-2712818_640.jpg */,
+				0756E92A25BEC11D00490C89 /* message_2021-01-25.png */,
 				07CDBF26253D0DCD00B9EDF6 /* Info.plist */,
 			);
 			path = AplDemo03;
@@ -233,7 +260,13 @@
 			files = (
 				07CDBF25253D0DCD00B9EDF6 /* LaunchScreen.storyboard in Resources */,
 				07CDBF22253D0DCD00B9EDF6 /* Assets.xcassets in Resources */,
+				0756E91C25BEBD1800490C89 /* luck-5214413_640.jpg in Resources */,
+				0756E91725BEBCFB00490C89 /* sale-1726232_640.jpg in Resources */,
 				07CDBF20253D0DC300B9EDF6 /* Main.storyboard in Resources */,
+				0756E92125BEBD2000490C89 /* new-32199_640.png in Resources */,
+				0756E92B25BEC11D00490C89 /* message_2021-01-25.png in Resources */,
+				0756E92625BEBD2C00490C89 /* coming-soon-2712818_640.jpg in Resources */,
+				07CDBF542558E8F500B9EDF6 /* halloween-21498_640.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,7 +291,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07CDBF4C253D1F6700B9EDF6 /* MainMenuViewController.swift in Sources */,
 				07CDBF1D253D0DC300B9EDF6 /* ViewController.swift in Sources */,
+				0714A2E525916AAF00316FDF /* UserAccount.swift in Sources */,
+				0714A2DD2591645F00316FDF /* FavoriteSetting.swift in Sources */,
 				07CDBF19253D0DC300B9EDF6 /* AppDelegate.swift in Sources */,
 				07CDBF1B253D0DC300B9EDF6 /* SceneDelegate.swift in Sources */,
 			);
